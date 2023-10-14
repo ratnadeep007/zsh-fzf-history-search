@@ -70,7 +70,7 @@ fzf_history_search() {
       zle end-of-line
     fi
   fi
-  zle reset-prompt
+  # zle reset-prompt
   return $ret
 }
 
